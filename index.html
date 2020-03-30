@@ -1,0 +1,88 @@
+    <style>
+        header {
+            position: fixed;
+            display: flex;
+            width: 100%;
+            font-size: 12px;
+            margin-top: 0px;
+        }
+        #left-header {
+            position: fixed;
+            display: flex;
+            width: 100%;
+            flex-direction: flex-start;
+        }
+        #right-header {
+            position: fixed;
+            display: flex;
+            width: 100%;
+            justify-content: flex-end;
+        }
+        
+        body {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+        }
+        footer {
+            position: fixed;
+            display: flex;
+            width: 100%;
+            font-size: 14px;
+            bottom: 0px;
+        }
+        #logo {
+            position: fixed; /* or absolute */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #search-bar {
+            position: absolute;
+            width: 100%;
+            top: 60%;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+        }
+        #left-footer {
+            width: 100%;
+            text-align: left;
+        }
+        #right-footer {
+            width: 100%;
+            text-align: right;
+        }
+    </style>
+    <header>
+        <div id="left-header">
+          <a id="about-anchor">About</a>
+          <a id="store-anchor">Store</a>
+        </div>
+        <div id="right-header">
+          <a id="gmail-anchor">Gmail</a>
+          <a id="image-anchor">Images</a>
+          <a id="box-anchor">[ ]</a>
+          <a id="sign-anchor">Sign In</a>
+        </div>
+      </header>
+      
+      <body>
+        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <form id="search-bar">
+          <input type="text" id="search" name="Search">
+        </form>
+      </body>
+      <footer>
+        <div id="left-footer">
+          <a>1</a>
+          <a>2</a>
+          <a>3</a>
+        </div>
+        <div id="right-footer">
+          <a>4</a>
+          <a>5</a>
+          <a>6</a>
+        </div>
+      </footer>
