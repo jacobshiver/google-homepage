@@ -10,8 +10,23 @@
 <body>
   <script>
     function add7(number){
-      console.log(number+7);
       return number+7;
+    }
+    function multiply(number,number2){
+      return (number*number2);
+    }
+    function capitalize(string){
+      //Takes a string, returns that full string with only
+      //the first letter capitalized
+      let firstChar = string.charAt[0];
+      let firstCharCapital = firstChar.toUpperCase();
+      let newString = string.slice(0,1);
+      return (firstCharCapital+newString);
+    }
+    function lastLetter(string){
+      //Takes a string, returns the last letter of string
+      let argLength = string.length;
+      return string.charAt(argLength);
     }
   </script>
 </body>
